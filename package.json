@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-health-records",
+  "version": "1.0.0",
+  "description": "A blockchain-based secure health record management system.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "deploy": "truffle migrate --network goerli"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "web3": "^1.5.0",
+    "ipfs-http-client": "^50.0.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.4.0",
+    "ganache-cli": "^6.12.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
